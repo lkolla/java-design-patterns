@@ -5,7 +5,7 @@ public class Singleton {
     private static Singleton instance = null;
 
     /**
-     *
+     * Threadsafe and least impact on performance.
      * @return
      */
     public static Singleton getInstance(){
